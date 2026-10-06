@@ -1,16 +1,83 @@
-<html>
+<html lang="it">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La pagina del secolo</title>
-</head> 
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background-color: #1e293b;
+      padding: 2rem 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+      color: #e2e8f0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background-color: #334155;
+      margin: 0.5rem 0;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      transform: translateY(-2px);
+      background-color: #475569;
+    }
+  </style>
+</head>
 <body>
-  <h1><P ALIGN = "center">Ciaoo!</h1><P>
-  <p ALIGN = "center">Questa è la mia prima pagina HTML.</p>
-  <P ALIGN = "center"><h2> i miei hobby</h2><p>
-  <ul>
-    <P ALIGN = "center"><li>Motori</li><p>
-    <P ALIGN = "center"><li>VideoGiochi</li><p>
-    <P ALIGN = "center"><li>Musica</li><p>
+
+  <div class="card">
+    <h1>Ciaoo!</h1>
+    <p class="subtitle">Questa è la mia prima pagina HTML.</p>
     
-  </ul>
+    <h2>I miei hobby</h2>
+    <ul>
+      <li>Motori</li>
+      <li>Videogiochi</li>
+      <li>Musica</li>
+    </ul>
+  </div>
+
 </body>
 </html>
